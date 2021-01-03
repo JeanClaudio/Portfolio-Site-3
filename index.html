@@ -30,6 +30,20 @@
             </ul>
         </nav>
     </header>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!--Scrip com Jquery para abrir e fechar menu mobile-->
+    <script>
+        $(".btn-menu").click(function(){
+            $(".menu").fadeIn();
+            $(".btn-menu").fadeOut();
+            $(".btn-menu").hide();
+        });
+        $(".btn-close").click(function(){
+            $(".menu").fadeOut();
+            $(".btn-menu").fadeIn();
+            $(".btn-menu").show();
+        });
+    </script>
 </body>
 </html>
