@@ -177,3 +177,45 @@ img{max-width: 100%;}
     color: rgb(39, 10, 10);
     line-height: 1.5em;
 }
+
+/*Newslatter*/
+
+.newslatter{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background-color: rgb(39, 10, 10);
+}
+
+.newslatter h2{
+    font-size: 1.5em; 
+    color: white;
+    font-weight: 700;    
+}
+
+.newslatter h3{
+    color: white;
+}
+
+.newslatter form{
+    margin-top: 2%;
+}
+
+.newslatter input{
+    width: 100%;
+    background-color:rgb(39, 10, 10);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.newslatter button{
+    width: 100%;
+    background-color: white;
+    color: rgb(39, 10, 10);
+    border-radius: 5px;
+    padding: 5%;
+    cursor: pointer;
+    margin-top: 2%;
+}
