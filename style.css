@@ -51,11 +51,11 @@ img{max-width: 100%;}
 }
 
 .btn-close{
-    font-size: 3em;
+    font-size: 1.5em;
     color: #fff;
     float: right;
     cursor: pointer;
-    margin-right: 5%;
+    margin: 2% 3% 0 0;
 }
 
 .menu ul{
@@ -76,4 +76,104 @@ img{max-width: 100%;}
 
 .menu li a:hover{
     border: 1px solid rgb(0, 158, 185) ;
+}
+
+/*Banner*/
+
+.banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url("img/james-harrison-vpOeXr5wmR4-unsplash.jpg") no-repeat fixed ;
+}
+
+.title{
+    width: 100%;
+}
+
+.title h2{
+    font-size: 2.5em;
+    color: white;
+    font-weight: 700;
+
+}
+
+.title h3{
+    font-size: 1.5em;
+    color: white;    
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 2%;
+}
+
+.buttons i{
+    float: right;
+}
+
+.btn-cadastrar{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(39, 10, 10);
+}
+
+.btn-sobre{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: rgb(39, 10, 10);
+    color: rgb(255, 255, 255);
+    margin-top: 5%;
+}
+
+/*Serviços*/
+
+.servicos{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.servico{
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+}
+
+.servico img{
+    border-radius: 7px 7px 0 0;
+}
+
+.inner{
+    padding: 7%;
+}
+
+.inner a{
+    font-size: 1.5em;
+    color: rgb(39, 10, 10);
+    font-weight: 700;
+}
+
+.inner h4{
+    font-size: 1.2;
+    color: rgb(39, 10, 10);
+    margin-top: 2%;
+}
+
+.inner p{
+    margin-top: 6%;
+    color: rgb(39, 10, 10);
+    line-height: 1.5em;
 }
