@@ -224,7 +224,7 @@ img{max-width: 100%;}
 .rodape{
     width: 100%;
     float: left;
-    pad: 3% 4%;
+    padding: 2% 3%;
     text-align: center;
     background: linear-gradient(to right, rgb(179, 205, 209),rgb(0, 158, 185));
 }
@@ -255,18 +255,35 @@ img{max-width: 100%;}
 }
 
 @media screen and (min-width: 768px){
-    .servico{
-        width: 49%;
-        float: left;
-        margin-right: 2%;
+    .servico{width: 49%; float: left; margin-right: 2%;
     }
 
-    .servico:nth-child(2) {
-        margin-right: 0;
-    }
+    .servico:nth-child(2) {margin-right: 0;}
 
     .newslatter h2{font-size: 2em;}
     .newslatter h3{font-size: 1.5em}
     .newslatter input{width: 70%; padding: 2%; float: left; margin-right: 1%;}
     .newslatter button{width: 29%; padding: 2%; float: right; margin-top: 0;}
+}
+
+@media screen and (min-width: 960px){
+    .title {width: 70%; float: left; text-align: left;}
+    .title h2 {font-size: 3em;}
+    .title h3 {font-size: 2em;}
+    .buttons {width: 30%; float: right; margin-top: 0;}
+    .servico {width: 32%; height: 500px;}
+    .servico:nth-child(2) {margin-right: 2%;}
+    .servico:nth-child(3) {margin-right: 0;}
+    .newslatter input {width: 60%; float: none;}
+    .newslatter button {width: 20%; float: none;}
+    .rodape {padding: 1% 2%;}
+}
+
+@media screen and (min-width: 1280px){
+    .btn-menu {display: none;}
+    .btn-close{display: none;}
+    .menu {width: auto; height: 56px; line-height: 56px; float: right;background:none; display: block; position: static;}
+    .menu li {padding: 0; float: left;}
+    .menu li a {color: rgb(39, 10, 10); font-size: 1.5em; padding: 15px;}
+    .menu li a:hover{border:none; color:rgb(0, 158, 185) ;}
 }
